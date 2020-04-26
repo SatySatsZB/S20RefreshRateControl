@@ -9,3 +9,12 @@ This app also includes 2 qs tiles for setting 96hz and 120hz. Check in your quic
 If you like this app, try #hex installer for theming your S20. Available on Play Store.
 
 Info: This app targets older android sdk in order to set refresh rates without ADB requirement. Ignore the dialog that says "This app was built for an older version of Android...."
+
+### Screenshots
+
+![Screenshot 1](https://labs-public-dl.xda-cdn.com/screenshots/06b0c681-93db-49ef-9ec5-ad79e8315364.png)
+
+![Screenshot 2](https://labs-public-dl.xda-cdn.com/screenshots/b0652efc-8cd4-4ba6-ba16-10da4d4b7481.jpg)
+
+
+
