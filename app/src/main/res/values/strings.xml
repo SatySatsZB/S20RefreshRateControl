@@ -2,6 +2,6 @@
     <string name="app_name">S20 Refresh Rate Control</string>
     <string name="info">Simple app to force set refresh rate. Thanks to Max Weinbach for finding this tweak and Rohit Shetty (TechyLogy YT) for testing this app.\nDeveloped by @SatySatsZB #hex_ installer\n\n\nThis app also includes QS tiles for changing the refresh rates. Check in your QuickSettings Panel
     </string>
-    <string name="set_120hz">Set 120HZ</string>
-    <string name="set_96hz">Set 96HZ</string>
+    <string name="set_120hz">Set 120Hz</string>
+    <string name="set_96hz">Set 96Hz</string>
 </resources>
