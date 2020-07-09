@@ -13,12 +13,12 @@ class ControllerTile96 : TileService() {
         tile.label = getString(R.string.set_96hz)
         tile.state = Tile.STATE_ACTIVE
         tile.icon = Icon.createWithResource(this, R.drawable.ic_refresh_black_24dp)
-        tile.updateTile();
+        tile.updateTile()
     }
 
     override fun onClick() {
         super.onClick()
-        set96HZ(this);
+        setRefreshRate(RefreshRate.NinetySix)
     }
 
 }

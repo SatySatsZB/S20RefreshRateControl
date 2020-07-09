@@ -10,8 +10,8 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        set96.setOnClickListener { set96HZ(this)};
-        set120.setOnClickListener { set120HZ(this)}
+        set96.setOnClickListener { setRefreshRate(RefreshRate.NinetySix) }
+        set120.setOnClickListener { setRefreshRate(RefreshRate.HundredTwenty) }
     }
 
 
