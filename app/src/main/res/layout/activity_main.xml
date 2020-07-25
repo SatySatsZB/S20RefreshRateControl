@@ -6,10 +6,12 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:gravity="center"
+        android:layout_margin="16dp"
         android:orientation="vertical">
 
     <Button
             android:id="@+id/set96"
+            android:textAllCaps="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/set_96hz"/>
@@ -17,9 +19,10 @@
     <Button
             android:layout_marginTop="8dp"
             android:id="@+id/set120"
+            android:textAllCaps="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/set_120hz"/>
+            android:text="@string/set_120hz" />
 
     <TextView
             android:layout_width="wrap_content"
@@ -27,6 +30,14 @@
             android:layout_marginTop="16dp"
             android:textSize="16sp"
             android:gravity="center"
-            android:text="@string/info"/>
+            android:text="@string/info" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/fps_info" />
 
 </LinearLayout>
